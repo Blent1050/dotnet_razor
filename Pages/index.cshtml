@@ -1,0 +1,8 @@
+@page
+@using Microsoft.Extensions.Configuration;
+@inject IConfiguration Configuration;
+<!-- test -->
+<h1>Hello</h1>
+<h2>
+    @Configuration["Email"]
+</h2>
